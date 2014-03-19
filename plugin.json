@@ -1,0 +1,15 @@
+{
+    "id": "nodebb-plugin-ogmetadata",
+    "name": "NodeBB Page Metadata embedding plugin",
+    "description": "Embeds page metadata into a post with just an url.",
+    "url": "https://github.com/miwi35/nodebb-plugin-ogmetadata",
+    "library": "./library.js",
+    "hooks": [
+        {
+            "hook": "filter:post.parse",
+            "method": "parse",
+            "callbacked": true,
+            "priority": 4
+        }
+    ]
+}
