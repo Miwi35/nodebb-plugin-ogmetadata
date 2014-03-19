@@ -1,0 +1,39 @@
+{
+    "name": "nodebb-plugin-ogmetadata",
+    "version": "0.0.0",
+    "description": "format link pasted in edit form",
+    "main": "library.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/miwi35/nodebb-plugin-ogmetadata.git"
+    },
+    "keywords": [
+        "nodebb",
+        "plugin",
+        "link",
+        "embed",
+        "embedding"
+    ],
+    "author": {
+        "name": "Méven CADARE",
+        "email": "meven35@gmail.com"
+    },
+    "license": "LGPL",
+    "bugs": {
+        "url": "https://github.com/miwi35/nodebb-plugin-ogmetadata/issues"
+    },
+    "dependencies": {
+        "xregexp": "~2.0.0"
+    },
+    "readme": "nodebb-plugin-ogmetadata\n====================\n\nFormats link pasted in edit form\n\nUpcoming features?\n------------------\n* Ability to specify which image are kept\n* Stretch goal: auto-downloading of pictures linked\n",
+    "readmeFilename": "README.md",
+    "_id": "nodebb-plugin-ogmetadata@0.0.0",
+    "dist": {
+        "shasum": "84b36976097838bbe22db273fd7e018d33a9ad36"
+    },
+    "_from": "nodebb-plugin-ogmetadata@",
+    "_resolved": "https://registry.npmjs.org/nodebb-plugin-ogmetadata/-/nodebb-plugin-ogmetadata-0.0.0.tgz"
+}
